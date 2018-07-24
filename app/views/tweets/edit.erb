@@ -1,11 +1,10 @@
-<h3> Edit tweet </h3> 
+<h3> Edit tweet </h3>
 
 <form action="/tweet/<%=@tweet.id%>" method=POST>
-  <input type="hidden" id="hidden" name="_method" value="PATCH"> 
+  <input type="hidden" id="hidden" name="_method" value="PATCH">
 
-  <label> New Status </label> 
-  <input type="text" name="new_content" id="new_content"> 
-  <input type="submit" value="submit"> 
+  <label> New Status </label>
+  <input type="text" name="new_content" id="new_content">
+  <input type="submit" value="submit">
 
 </form> 
-  
