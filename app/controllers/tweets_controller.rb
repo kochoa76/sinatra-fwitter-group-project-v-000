@@ -10,10 +10,10 @@ class TweetsController < ApplicationController
     end
   end
 
-  get 'users/new' do 
+  get 'users/new' do
     erb :'/tweets/new'
-    
-  end 
-  
+
+  end
+
 
 end
